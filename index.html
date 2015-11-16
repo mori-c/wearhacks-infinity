@@ -1,1 +1,234 @@
-hello aurora, this is the world.
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
+		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+		<title>Infinity Room</title>
+		<meta name="description" content="Draggable Dual-View Slideshow: A Slideshow with two views and content area" />
+		<meta name="keywords" content="draggable, slideshow, fullscreen, carousel, views, zoomed, 3d transform, perspective, dragdealer" />
+		<meta name="author" content="Codrops" />
+		<link rel="shortcut icon" href="../favicon.ico">
+		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/demo.css" />
+		<link rel="stylesheet" type="text/css" href="css/dragdealer.css" />
+		<link rel="stylesheet" type="text/css" href="css/component.css" />
+		
+		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/aurora/main.css" />
+		<link rel="stylesheet" type="text/css" href="https://github.com/connieleung/aurora/blob/gh-pages/main.css" />
+		
+  		<script src="js/modernizr.custom.js"></script>
+  		
+		<style>
+		h1, h2, h3 /* #site-title */ {
+		        /* Infinity */
+		        font-family: 'Futura', 'Futura-Medium', 'Century Gothic', 'AppleGothic', "URW Gothic L", 'Avant Garde', sans-serif;
+		        color: #8d6f00;
+		        font-size: 4em;
+		        font-weight: bold;
+		        text-transform: uppercase;
+		        text-align: center;
+		        letter-spacing: .5em;
+		        padding: 0.15em 0 0 0.75em;
+		        margin: 0;
+		      }
+	      	
+	      	.slide h2, /* #site-subtitle */ {
+		    /* Infinity slogan */
+		    font-family: 'Futura', 'Futura-Medium', 'Century Gothic', 'AppleGothic', "URW Gothic L", 'Avant Garde', sans-serif;
+		    color: rgba(0,0,0,.25);
+		    font-weight: 400;
+		    text-transform: uppercase;
+		    text-align: center;
+		    letter-spacing: .2em;
+		    font-size: 4em;
+		    line-height: 1.75em;
+		    /* padding-left: 3%; */
+		    margin: 0;
+		    padding-bottom: .5em;
+		    padding-top: 1em;
+	      	}	
+			
+		</style>
+	</head>
+	<body>
+		<div class="container">
+			<header id="header" class="codrops-header">
+				<h1>Infinity Room</h1>
+				<span class="message">This mobile version does not have the slideshow switch</span>
+				<button class="slider-switch">Switch view</button>
+			</header>
+
+			<!-- INSTRUCTIONS -->
+			<div id="overlay" class="overlay">
+				<div class="info">
+					<h2>Infinity Room</h2>
+					<h4 class="overlay-instructions-about">site interaction guide</h4>
+					<!-- span>site interaction guide</span -->
+					<span class="info-drag">Drag Sliders</span>
+					<span class="info-keys">Use Arrows</span>
+					<span class="info-switch">Switch view</span>
+					<button>Got it!</button>	
+				</div>
+			</div>
+<div class="container section experience">
+
+			<!-- EXPERIENCE CONTENT -->
+			<div id="slideshow" class="dragslider">
+				<section class="img-dragger img-dragger-large dragdealer">
+					<div class="handle">
+
+						<!-- SECTION HEADER 01 -->
+						<div class="slide E1"  id="SH1" data-content="content-1">
+
+							<div class="img-wrap">
+							<!-- img src="https://placeholdit.imgix.net/~text?txtsize=40&amp;bg=00F3EB&amp;txt=S01&amp;w=1280&amp;h=850&amp;fm=png" alt="img1"/ -->
+
+							<img class="aurora-skeleton-viz-img-1" src="https://drive.google.com/file/d/0B2op1X9Uw0cCbmhfX2R2cEFISjg/view?usp=sharing" />
+							</div>
+
+							<h2>Infinity Room</h2>
+
+							<button class="content-switch" style="display=none;">	
+								<a href="#SH2">
+									<img class="E1 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+								</a>
+							</button>
+						</div>
+
+						<!-- SECTION HEADER 02 -->
+						<div class="slide E2" id="SH2" data-content="content-2">
+
+							<div class="img-wrap">
+							<img class="aurora-skeleton-viz-img-2" src="http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg" />
+							</div>
+
+							<h2 class="slogan-quote">Making Data Enchanting</h2>
+
+							<a href="#SH3">
+								<img class="E2 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 03 -->
+						<div class="slide E3" id="SH3" data-content="content-3">
+							<div class="img-wrap">
+							<img src="https://placeholdit.imgix.net/~text?txtsize=40&bg=885500&txt=S03&w=1280&h=850&fm=png" alt="img3"/></div>
+							
+							<h2>WearHacks</h2>
+
+							<a href="#SH3">
+								<img class="E3 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 04 -->
+						<div class="slide E4" id="SH4" data-content="content-4">
+							<div class="img-wrap">
+							<!-- img src="https://placeholdit.imgix.net/~text?txtsize=40&bg=885500&txt=S04&w=1280&h=850&fm=png" alt="img4"/ -->
+							<img class="" src="http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg" alt="img4"/ >
+							</div>
+							<h2>Concept<span>Magic of the UX</span></h2>
+							<a href="#SH5">
+								<img class="E4 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 05 -->
+						<div class="slide E5" id="SH5" data-content="content-5">
+							<div class="img-wrap">
+
+							<img src="https://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/05/3030782-poster-2014-05-19-103722.gif" alt="img5"/></div>
+							<h2>Tech<span>Specs</span></h2>
+
+							<a href="#SH6">
+								<img class="E5 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 06 -->
+						<div class="slide E6" id="SH6" data-content="content-6">
+							<div class="img-wrap">
+
+							<iframe src="https://all360media.com/elements/hosted/microsoft/embed.html" width="618" height="320"></iframe>
+							
+							<img src="https://placeholdit.imgix.net/~text?txtsize=40&bg=885500&txt=S06&w=1280&h=850&fm=png" alt="img6"/></div>
+							<h2>Experience<span>The Journey Walkthrough</span></h2>
+							<a href="#SH7">
+								<img class="E6 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 07 -->
+						<div class="slide E7" id="SH7" data-content="content-7">
+							<div class="img-wrap"><img src="https://cloud.githubusercontent.com/assets/4642277/11195499/3aafca66-8c80-11e5-91ff-bb078faf4be5.jpg" alt="img7"/></div>
+							<h2>SH7<span><hr /></span></h2>
+							<a href="#SH8">
+								<img class="E7 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+
+						<!-- SECTION HEADER 08 -->
+						<div class="slide E8" id="SH8" data-content="content-8">
+							<div class="img-wrap"><img src="https://drive.google.com/file/d/0B2op1X9Uw0cCd0doakVXUzNjcGc/view?usp=sharing" alt="img8"/></div>
+							<h2>SH8<span>Form</span></h2>
+							<a href="#SH1">
+								<img class="E8 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+							</a>
+						</div>
+					</div>
+				</section>
+
+			</div>
+		</div><!-- /container --> 
+		<script src="js/dragdealer.js"></script>
+		<script src="js/classie.js"></script>
+		<script src="js/dragslideshow.js"></script>
+		<script>
+			(function() {
+				var overlay = document.getElementById( 'overlay' ),
+					overlayClose = overlay.querySelector( 'button' ),
+					header = document.getElementById( 'header' )
+					switchBtnn = header.querySelector( 'button.slider-switch' ),
+					toggleBtnn = function() {
+						if( slideshow.isFullscreen ) {
+							classie.add( switchBtnn, 'view-maxi' );
+						}
+						else {
+							classie.remove( switchBtnn, 'view-maxi' );
+						}
+					},
+					toggleCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.add( header, 'hide' );
+						}
+					},
+					toggleCompleteCtrls = function() {
+						if( !slideshow.isContent ) {
+							classie.remove( header, 'hide' );
+						}
+					},
+					slideshow = new DragSlideshow( document.getElementById( 'slideshow' ), { 
+						// toggle between fullscreen and minimized slideshow
+						onToggle : toggleBtnn,
+						// toggle the main image and the content view
+						onToggleContent : toggleCtrls,
+						// toggle the main image and the content view (triggered after the animation ends)
+						onToggleContentComplete : toggleCompleteCtrls
+					}),
+					toggleSlideshow = function() {
+						slideshow.toggle();
+						toggleBtnn();
+					},
+					closeOverlay = function() {
+						classie.add( overlay, 'hide' );
+					};
+				// toggle between fullscreen and small slideshow
+				switchBtnn.addEventListener( 'click', toggleSlideshow );
+				// close overlay
+				overlayClose.addEventListener( 'click', closeOverlay );
+			}());
+		</script>
+	</body>
+</html>
