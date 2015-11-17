@@ -115,6 +115,12 @@ img.infinity-skeleton-viz-img-inside-04 {
     background: rgb(0,0,0,.4);
 }
 
+img.infinity-skeleton-viz-img-inside-05 {
+    opacity: .4;
+    transform: scale(1.3);
+    z-index: 2;
+}
+
 /* SH06 - Experience */
 .slide.SH6.current {
     background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
@@ -123,6 +129,12 @@ img.infinity-skeleton-viz-img-inside-04 {
     background-color: rgba(88,133,159,.5);
     z-index: 0;
     background: rgb(0,0,0,.4);
+}
+
+img.infinity-skeleton-viz-img-inside-06 {
+    opacity: .4;
+    transform: scale(1.3);
+    z-index: 2;
 }
 
 /* SH07 - Unknown */
@@ -135,6 +147,12 @@ img.infinity-skeleton-viz-img-inside-04 {
     background: rgb(0,0,0,.4);
 }
 
+img.infinity-skeleton-viz-img-inside-07 {
+    opacity: .4;
+    transform: scale(1.3);
+    z-index: 2;
+}
+
 /* SH08 - CTA */
 .slide.SH8.current {
     background: url(http://tawhid.ca/connie/asdasdas.gif);
@@ -145,3 +163,8 @@ img.infinity-skeleton-viz-img-inside-04 {
     background: rgb(0,0,0,.4);
 }
 
+img.infinity-skeleton-viz-img-inside-08 {
+    opacity: .4;
+    transform: scale(1.3);
+    z-index: 2;
+}
