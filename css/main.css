@@ -1,0 +1,67 @@
+/* */
+
+/* Instructional Guide Overlay */
+h4.overlay-instructions-about {
+    letter-spacing: .5em;
+    padding-bottom: 1.5em;
+    font-weight: 100;
+}
+
+/* S01 header */
+.slide.SH1.current {
+    background: url(https://i.imgur.com/Cvo5XJv.gifv);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(88,133,159,.5);
+    z-index: 0;
+    background: rgb(0,0,0,.4);
+}
+
+img.infinity-skeleton-viz-img-01 {
+    opacity: .25;
+    transform: scale(0.73);
+    padding-bottom: 1em;
+    z-index: 2;
+}
+
+/* S02 header */
+.slide.SH2.current {
+    background: url(http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(88,133,159,.5);
+    z-index: 0;
+}
+
+img.infinity-skeleton-viz-img-02 {
+    opacity: .25;
+    /*transform: scale(0.73);
+    padding-bottom: 1em;
+    z-index: 10;*/
+}
+
+.js .slide h2.slogan-quote {
+    font-weight: 100;
+    /* font-style: italic; */
+    letter-spacing: .5em; 
+    padding: .5em;
+    text-align: center;
+    color: rgba(255,255,255,.7);
+    font-weight: 800;
+    z-index: 10;
+}
+
+/* SH04 - Concept */
+.slide.SH4.current {
+    background: url(http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.5);
+    background-position: center center;
+    z-index: 0;
+    transform: scale(1.05);
+}
+img.infinity-skeleton-viz-img-inside-04 {
+    opacity: .4;
+    transform: scale(1.03);
+}
