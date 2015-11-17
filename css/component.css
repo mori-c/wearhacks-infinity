@@ -1,15 +1,4 @@
-@font-face {
-	/*
-	font-family: 'feathericons';
-	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?2h4ajg');
-	src:url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.eot?#iefix2h4ajg') format('embedded-opentype'),
-		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.woff?2h4ajg') format('woff'),
-		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.tff?2h4ajg') format('truetype'),
-		url('http://tympanus.net/Development/DraggableDualViewSlideshow/fonts/feathericons/feathericons.svg?2h4ajg#feathericons') format('svg');
-	font-weight: normal;
-	font-style: normal;
-	*/
-}
+@font-face {}
 
 html, 
 body,
@@ -222,6 +211,7 @@ button.slider-switch:hover {
 	text-align: center;
 	color: #34495e;
 	-webkit-animation: slideUpFade 0.4s 0.1s;
+	font-size:70%;
 }
 
 @-webkit-keyframes slideUpFade {
@@ -245,6 +235,7 @@ button.slider-switch:hover {
 	animation-delay: 0s;
 	-webkit-transition: color 0.3s, opacity 0.3s;
 	transition: color 0.3s, opacity 0.3s;
+	font-size: 70%;
 }
 
 .slide h2 i {
