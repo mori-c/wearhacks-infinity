@@ -53,15 +53,50 @@ img.infinity-skeleton-viz-img-02 {
 
 /* SH04 - Concept */
 .slide.SH4.current {
-    background: url(http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg");
+    background: url(http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0,0,0,.5);
     background-position: center center;
     z-index: 0;
-    transform: scale(1.05);
 }
+
 img.infinity-skeleton-viz-img-inside-04 {
-    opacity: .4;
-    transform: scale(1.03);
+    /* opacity: .4;
+    transform: scale(1.03); */
 }
+
+/* SH05 - Tech */
+.slide.SH4.current {
+    background: url(https://cloud.githubusercontent.com/assets/4642277/11195499/3aafca66-8c80-11e5-91ff-bb078faf4be5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: rgba(0,0,0,.5);
+    background-position: center center;
+    z-index: 0;
+}
+
+/* SH06 - Experience */
+.slide.SH6.current {
+    background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
+    background-color: rgba(0,0,0,.4);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* SH07 - Unknown */
+.slide.SH7.current {
+    background: url(https://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/05/3030782-poster-2014-05-19-103722.gif);
+    background-color: rgba(0,0,0,.4);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+/* SH08 - CTA */
+.slide.SH8.current {
+    background: url(http://tawhid.ca/connie/asdasdas.gif);
+    background-color: rgba(0,0,0,.4);
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
