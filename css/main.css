@@ -17,7 +17,7 @@ h4.overlay-instructions-about {
     background: rgb(0,0,0,.4);
 }
 
-img.infinity-skeleton-viz-img-1 {
+img.infinity-skeleton-viz-img-01 {
     opacity: .25;
     transform: scale(0.73);
     padding-bottom: 1em;
@@ -26,14 +26,14 @@ img.infinity-skeleton-viz-img-1 {
 
 /* S02 header */
 .slide.SH2.current {
-    background: url(http://biomath.math.nd.edu/compbio/PhoneNetwork/continental0p001.gif);
+    background: url(http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(88,133,159,.5);
     z-index: 0;
 }
 
-img.aurora-skeleton-viz-img-2 {
+img.infinity-skeleton-viz-img-02 {
     opacity: .25;
     /*transform: scale(0.73);
     padding-bottom: 1em;
@@ -53,7 +53,7 @@ img.aurora-skeleton-viz-img-2 {
 
 /* SH04 - Concept */
 .slide.SH4.current {
-    background: url(https://cloud.githubusercontent.com/assets/4642277/11177486/dfb4d4ec-8c13-11e5-89ca-515bdc105ae5.jpeg);
+    background: url(http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(0,0,0,.5);
@@ -62,7 +62,7 @@ img.aurora-skeleton-viz-img-2 {
     transform: scale(1.05);
 }
 
-img.aurora-skeleton-viz-img-inside-02c {
+img.infinity-skeleton-viz-img-inside-04 {
     opacity: .4;
     transform: scale(1.03);
 }
