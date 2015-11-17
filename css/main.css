@@ -51,12 +51,11 @@ img.infinity-skeleton-viz-img-01 {
     background: url(http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(88,133,159,.5);
     z-index: 0;
-    background: rgb(0,0,0,.4);
+    background: rgb(0,0,0,.3);
 }
 
-img.infinity-skeleton-viz-img-02 {
+img.infinity-skeleton-viz-img-inside-02 {
     opacity: .25;
     transform: scale(1.3);
     z-index: 2;
@@ -68,46 +67,43 @@ img.infinity-skeleton-viz-img-02 {
     letter-spacing: .5em; 
     padding: .5em;
     text-align: center;
-    color: rgba(255,255,255,.7);
+    color: rgba(255,255,255,.9);
     font-weight: 800;
     z-index: 10;
 }
 
 /* SH03 - WearHacks */
 .slide.SH3, div#SH3 {
-    background: url(https://31.media.tumblr.com/4ffa5869f6600fbcad83f5ee8284c106/tumblr_n32ub3H32w1six59bo2_r1_250.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgba(88,133,159,.5);
+    /* background: url(https://31.media.tumblr.com/4ffa5869f6600fbcad83f5ee8284c106/tumblr_n32ub3H32w1six59bo2_r1_250.gif); */
+    /* background-size: cover;
+    background-repeat: no-repeat; */
+    background-color: rgba(0,0,0,1);
     z-index: 0;
-    background: rgb(0,0,0,.4);
 }
 
 img.infinity-skeleton-viz-img-inside-03 {
-    opacity: .4;
+    opacity: .3;
     transform: scale(1.3);
-    z-index: 2;
+    z-index: 0;
 }
 
 /* SH04 - Concept */
 .slide.SH4 {
-    background: url(http://blog.visual.ly/wp-content/uploads/2014/05/BigData.jpg);
+    background: url(http://blogs-cdn.guggenheim.org/2014/12/Yayoi-Kusama-1024.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    background-color: rgba(88,133,159,.5);
     z-index: 0;
-    background: rgb(0,0,0,.4);
 }
 
 img.infinity-skeleton-viz-img-inside-04 {
     opacity: .4;
     transform: scale(1.3);
-    z-index: 2;
+    /* z-index: 2; */
 }
 
 /* SH05 - Tech */
 .slide.SH5.current {
-    background: url(https://cloud.githubusercontent.com/assets/4642277/11195499/3aafca66-8c80-11e5-91ff-bb078faf4be5.jpg);
+    background: url(http://dailybreakfast.net/wp-content/uploads/2011/03/yayoi-kusama-infinity-mirror-room_dailybreakfast.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: rgba(88,133,159,.5);
@@ -116,9 +112,11 @@ img.infinity-skeleton-viz-img-inside-04 {
 }
 
 img.infinity-skeleton-viz-img-inside-05 {
-    opacity: .4;
-    transform: scale(1.3);
-    z-index: 2;
+    /* opacity: .4; */
+    /* transform: scale(1.3); */
+    /* z-index: 2; */
+    visibility: hidden;
+    display: none;
 }
 
 /* SH06 - Experience */
