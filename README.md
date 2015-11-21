@@ -3,16 +3,20 @@
 ## Concepts and Ideas
 1. Escape Room - https://en.wikipedia.org/wiki/Real-life_room_escape
 2. Scavenger hunt - https://en.wikipedia.org/wiki/Treasure_hunt_(game)
-3. Synesthesia - Create soundscapes with light! Look at http://weavesilk.com/ and http://www.typatone.com/ and http://www.patatap.com/
-4. Doodle - Work with friends to make your own doodle in 3D space!
+3. Synesthesia - 3D 'tetris' puzzle with color + light + movement.
+
 
 ## About
 
 ## Media
 
 ## Site
-Logo: http://tympanus.net/Development/InteractiveParticlesSlideshow/
-Gfx Showcase: https://codyhouse.co/demo/fixed-background-effect/index.html
+### Experience Tone
+See https://github.com/connieleung/infinity/issues/2
+
+### Demo 1
+
+### Demo 2
 
 
 ## Product Design / CAD
