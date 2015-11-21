@@ -4,7 +4,7 @@
 1. Escape Room - https://en.wikipedia.org/wiki/Real-life_room_escape
 2. Scavenger hunt - https://en.wikipedia.org/wiki/Treasure_hunt_(game)
 3. Synesthesia - 3D 'tetris' puzzle with color + light + movement.
-
+4. Doodle - Draw in an infinity room with friends!
 
 ## About
 
