@@ -83,19 +83,18 @@
 
 ## 7 - About
 
-Who we are
+###### Who we are
 Ari
 Connie
 Alexis
 Imran
 
-What our mediums are
+###### What our mediums are
 Physical, tactile, gesture control, haptic immersive, emotional
 
-What our motivations are
+###### What our motivations are
 New technologies and pushing existing technologies in ways which replicate new experiences
 
-Last note
 Selected projects are available to license
 
 
