@@ -245,7 +245,7 @@ button.slider-switch:hover {
 
 /* top button in SH# */
 button.content-switch {
-/* background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_up-32.png); */
+    background-image: url(https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_up-32.png);
     border-radius: 50%;
     /* border: 2px solid #fff; */
     width: 60px;
