@@ -97,12 +97,12 @@ img.infinity-skeleton-viz-img-inside-03 {
 }
 */
 
-.slide.SC3H1 {
+.slide.content.SC3H1 {
     border: 1.5px solid firebrick;
     background: url(http://placehold.it/1020);
 }
 
-.slide.SC3H2 {
+.slide.content.SC3H2 {
     border: 1.5px solid firebrick;
     background: url(http://placehold.it/1020);
 }
