@@ -354,7 +354,8 @@ button.content-switch::before {
 }
 
 .pages .content.show {
-	height: auto;
+	/* height: auto; */
+	height: inherit;
 	-webkit-transition: none;
 	transition: none;
 	padding-top: 6em;
