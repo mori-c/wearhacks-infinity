@@ -426,7 +426,8 @@ button.content-switch::before {
 	transition-property: transform, opacity;
 	-webkit-transform: translate3d(0,0,0);
 	transform: translate3d(0,0,0);
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
+	padding-top: 30px;
 }
 
 .pages .content.show p {
