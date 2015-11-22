@@ -16,7 +16,7 @@
 - H1 Ipsum Lorem
 
 #### E1S2
-- BG .mp4
+- BG .mp4/.webm
 - [+] More info
 - - 1 sentence : what is the installation
 - - e.g. "..an immersive  narrative experience exploring the power of big data.."
@@ -37,12 +37,21 @@
 - BG .jpg
 - H2 "quote" -Author 
 
-## 5 - E2 (Experience 2) : Demo
+
+## 4 - Demo 2 (alt section)
+- BG .jpg
+- H2 "quote" -Author 
+ 
+
+
+## 5 - E2 (Experience 2) : Demo 1
 
 <hr>
 Demo Direction 1
-html5 face/emotion detection - https://github.com/auduno/clmtrackr
+html5 face/emotion detection - <a href="https://github.com/auduno/clmtrackr">clmtrackr.js</a>
 demo example - https://github.com/karenpeng/motionEmotion
+particle variables - dat.GUI
+lightweight 3D engine - three.js
 
 Demo Direction 2
 http://www.karenlabs.com/music/
