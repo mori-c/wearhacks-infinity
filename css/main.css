@@ -46,7 +46,7 @@ img.infinity-skeleton-viz-img-01 {
     z-index: 2;
 }
 
-/* S02 header */
+/* S02 header : Slogan */
 .slide.SH2, div#SH2 {
     background: url(http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg);
     background-size: cover;
@@ -72,7 +72,7 @@ img.infinity-skeleton-viz-img-inside-02 {
     z-index: 10;
 }
 
-/* SH03 - WearHacks */
+/* SH03 - Experience 1 */
 .slide.SH3, div#SH3 {
     /* background: url(https://31.media.tumblr.com/4ffa5869f6600fbcad83f5ee8284c106/tumblr_n32ub3H32w1six59bo2_r1_250.gif); */
     /* background-size: cover;
@@ -87,7 +87,7 @@ img.infinity-skeleton-viz-img-inside-03 {
     z-index: 0;
 }
 
-/* SH04 - Concept */
+/* SH04 - Quote */
 .slide.SH4 {
     background: url(http://blogs-cdn.guggenheim.org/2014/12/Yayoi-Kusama-1024.jpg);
     background-size: cover;
@@ -101,7 +101,7 @@ img.infinity-skeleton-viz-img-inside-04 {
     /* z-index: 2; */
 }
 
-/* SH05 - Tech */
+/* SH05 - Experience 2 */
 .slide.SH5.current {
     background: url(http://dailybreakfast.net/wp-content/uploads/2011/03/yayoi-kusama-infinity-mirror-room_dailybreakfast.jpg);
     background-size: cover;
@@ -119,7 +119,7 @@ img.infinity-skeleton-viz-img-inside-05 {
     display: none;
 }
 
-/* SH06 - Experience */
+/* SH06 - Tech */
 .slide.SH6.current {
     background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
     background-size: cover;
@@ -135,7 +135,7 @@ img.infinity-skeleton-viz-img-inside-06 {
     z-index: 2;
 }
 
-/* SH07 - Unknown */
+/* SH07 - About */
 .slide.SH7 {
     background: url(https://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/05/3030782-poster-2014-05-19-103722.gif);
     background-size: cover;
