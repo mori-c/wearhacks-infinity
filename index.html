@@ -12,16 +12,20 @@
 		<!-- link rel="shortcut icon" href="../favicon.ico" -->
 		<link href='http://fonts.googleapis.com/css?family=Playfair+Display:900,400|Lato:300,400,700' rel='stylesheet' type='text/css'>
 		
+		
+		<!-- layout by tympanus.net/Development/DraggableDualViewSlideshow/ -->
 		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/aurora/css/normalize.css" />
 		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/aurora/css/demo.css" />
 		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/aurora/css/dragdealer.css" />
 		
 		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/infinity/css/component.css" />
-		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/infinity/css/main.css" />
-		
-		<link rel="stylesheet" type="text/css" href="https://github.com/connieleung/aurora/blob/gh-pages/main.css" />
-		
+
   		<script src="https://connieleung.github.io/aurora/js/modernizr.custom.js"></script>
+  		
+  		<!-- custom layout css -->
+  		<link rel="stylesheet" type="text/css" href="https://github.com/connieleung/aurora/blob/gh-pages/main.css" />
+		<link rel="stylesheet" type="text/css" href="https://connieleung.github.io/infinity/css/main.css" />
+
   		
   		<style>
 		h1, h2, h3 /* #site-title */ {
@@ -75,12 +79,12 @@
 				</div>
 			</div>
 
-			<!-- AURORA CONTENT -->
+			<!-- INFINITY CONTENT -->
 			<div id="slideshow" class="dragslider">
 				<section class="img-dragger img-dragger-large dragdealer">
 					<div class="handle">
 
-						<!-- SECTION HEADER 01 -->
+						<!-- SECTION HEADER 01 : TITLE PAGE / INFINITY ROOM -->
 						<div class="slide SH1" data-content="content-1">
 							<div class="img-wrap">
 							<img class="infinity-skeleton-viz-img-01" src="https://i.imgur.com/Cvo5XJv.gifv" />
@@ -90,7 +94,7 @@
 							<button class="content-switch" style="display=none;"></button>
 						</div>
 
-						<!-- SECTION HEADER 02 -->
+						<!-- SECTION HEADER 02 : SLOGAN -->
 						<div class="slide SH2" id="SH2" data-content="content-2">
 							<div class="img-wrap">
 							<!-- img class="infinity-skeleton-viz-img-inside-02" src="http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg" / -->
@@ -103,12 +107,14 @@
 							</a>
 						</div>
 
-						<!-- SECTION HEADER 03 -->
+						<!-- SECTION HEADER 03 : EXP1 -->
 						<div class="slide SH3" id="SH3" data-content="content-3">
 							<div class="img-wrap">
-							<img class="infinity-skeleton-viz-img-inside-03" src="https://31.media.tumblr.com/4ffa5869f6600fbcad83f5ee8284c106/tumblr_n32ub3H32w1six59bo2_r1_250.gif" alt="img3"/></div>
-							<h2>WearHacks</h2>
-							<button class="content-switch" style="display=none;"></button>
+								<!-- img class="infinity-skeleton-viz-img-inside-03" src="https://31.media.tumblr.com/4ffa5869f6600fbcad83f5ee8284c106/tumblr_n32ub3H32w1six59bo2_r1_250.gif" alt="img3"/></div -->
+								<img class="infinity-skeleton-viz-img-inside-07" src="https://f.fastcompany.net/multisite_files/fastcompany/imagecache/1280/poster/2014/05/3030782-poster-2014-05-19-103722.gif" alt="img7"/></div>
+							<h2>E1</h2>
+							<!-- button class="content-switch" style="display=none;"></button -->
+							<button class="content-switch"></button>
 						</div>
 
 						<!-- SECTION HEADER 04 -->
@@ -175,13 +181,58 @@
 						</p>
 					</div -->
 
-					<!-- SECTION CONTENT 03 -->
-					<div class="content" data-content="content-3">
+					<!-- SECTION HEADER 03 : EXP1 -->
+					<!-- div class="content" data-content="content-3">
 						<h2>About Us <span><hr /></span></h2>
 						<p class="SC03">
 							<center>info@wearhacks.com</center>
 						</p>
-					</div>
+					</div -->
+					
+					<section class="img-dragger img-dragger-large dragdealer">
+						<div class="handle">
+
+							<!-- E1S1: VIDEO -->
+							<div class="slide SH1" data-content="content-1">
+								<div class="img-wrap">
+								<!-- img class="infinity-skeleton-viz-img-01" src="https://i.imgur.com/Cvo5XJv.gifv" / -->
+								<div style="position: fixed; z-index: -99; width: 100%; height: 100%">
+								  <iframe frameborder="0" height="100%" width="100%" 
+								    src="https://www.youtube.com/embed/JWeAvNa0o6k?autoplay=1&controls=0&showinfo=0&autohide=1">
+								  </iframe>
+								</div>
+							</div>
+							<a href="#SH2"><img class="SH1 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" /></a>
+						</div>
+	
+							<!-- SECTION HEADER 02 : SLOGAN -->
+							<div class="slide SH2" id="SH2" data-content="content-2">
+								<div class="img-wrap">
+									<img class="infinity-skeleton-viz-img-inside-02" src="http://www.universaleverything.com/wp-content/uploads/2014/05/DSC_9673-950x632.jpg" / >
+								</div>
+								<h2 class="title">Core</h2>
+								<h3 class="title-description">
+									e.g. "..15’ x 8’ mirrored room and subtly choreographed pixel spheres echoed the LED animations, creating an endless digital landscape.."
+								</h3>
+								<a href="#SH3">
+								<button class="content-switch" style="">
+									<img class="SH2 arrow" src="https://maxcdn.icons8.com/windows10/PNG/32/Arrows/chevron_right-32.png" />
+								</button>
+								</a>
+							</div>
+					
+								<!-- SECTION HEADER 03 -->
+							<div class="slide SH3" data-content="content-3">
+								<div class="img-wrap">
+									<img class="infinity-skeleton-viz-img-inside-03" src="https://38.media.tumblr.com/9698bce25ef36c4b5337ebb3dc10fad9/tumblr_nv9ac7IWZG1qzquwto1_1280.gif" alt="img8"/></div>
+								<h2 class="title">Design</h2>
+								<h3 class="title-description">
+									e.g. "..Designed in code and running in real-time, the experience tells the story of the world around us through the medium of a simple.."
+								</h3>	
+								<button class="content-switch" style="display=none;"></button>
+							</div>
+						</div>
+					</section>
 
 					<!-- SECTION CONTENT 04 -->
 					<div class="content" data-content="content-4">
