@@ -9,7 +9,7 @@
 - BG .jpg
 - H2 "making data enchanting"
 
-## 3 - E1 (Experience 1)
+## 3 - E1 : Infinity Room
 
 #### E1S1 (Experience 1, Section 1)
 - BG .gif
@@ -37,7 +37,17 @@
 - BG .jpg
 - H2 "quote" -Author 
 
-## 5 - E2 (Experience 2)
+## 5 - E2 (Experience 2) : Demo
+
+<hr>
+Demo Direction 1
+html5 face/emotion detection - https://github.com/auduno/clmtrackr
+demo example - https://github.com/karenpeng/motionEmotion
+
+Demo Direction 2
+http://www.karenlabs.com/music/
+click obj = sound - https://developer.mozilla.org/en-US/demos/detail/16-sound-synthesizer
+<hr>
 
 #### E2S1 (Experience 2, Section 1)
 - BG .gif
