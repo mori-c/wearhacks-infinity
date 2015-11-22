@@ -270,8 +270,8 @@ button.content-switch {
     opacity: 0.7;
     -webkit-transition: -webkit-transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
     transition: transform 0.6s cubic-bezier(.7,0,.3,1), opacity 0.3s, color 0.3s, border-color 0.3s;
-    visibility: hidden;
-    display: none;
+    /* visibility: hidden;
+    display: none; */
 }
 
 .no-js button.content-switch {
