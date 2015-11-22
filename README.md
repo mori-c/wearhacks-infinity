@@ -33,9 +33,3 @@ See https://github.com/connieleung/infinity/issues/2
 
 
 
-
-
-
-Logo: http://tympanus.net/Development/InteractiveParticlesSlideshow/
-Gfx Showcase: https://codyhouse.co/demo/fixed-background-effect/index.html
-https://codyhouse.co/demo/expandable-project-presentation/index.html
