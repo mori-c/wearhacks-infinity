@@ -82,6 +82,7 @@ img.infinity-skeleton-viz-img-inside-02 {
     z-index: 0;
 }
 
+
 img.infinity-skeleton-viz-img-inside-03 {
     opacity: .3;
     transform: scale(1.3);
@@ -95,24 +96,18 @@ img.infinity-skeleton-viz-img-inside-03 {
     background-repeat: no-repeat;
     background-position: center center;
 }
-
-.content.SC3.dragslider.show {
-    background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-}
 */
 
-.slide.content.SC3H1 {
+.slide.SC3H1.content {
     border: 1.5px solid firebrick;
     background: url(http://placehold.it/1020);
 }
 
-.slide.content.SC3H2 {
+.slide.SC3H2.content {
     border: 1.5px solid firebrick;
-    background: url(http://placehold.it/1020);
+    background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
 }
+
 
 /* SH04 - Quote */
 .slide.SH4 {
