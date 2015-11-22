@@ -95,6 +95,13 @@ img.infinity-skeleton-viz-img-inside-03 {
     background-repeat: no-repeat;
     background-position: center center;
 }
+
+.content.SC3.dragslider.show {
+    background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
 */
 
 .slide.content.SC3H1 {
