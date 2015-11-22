@@ -88,6 +88,13 @@ img.infinity-skeleton-viz-img-inside-03 {
     z-index: 0;
 }
 
+.content.SC3 {
+    background: url(http://tawhid.ca/connie/WAM-infinityroom-1.gif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 /* SH04 - Quote */
 .slide.SH4 {
     background: url(http://blogs-cdn.guggenheim.org/2014/12/Yayoi-Kusama-1024.jpg);
@@ -169,7 +176,7 @@ img.infinity-skeleton-viz-img-inside-08 {
 }
 
 /* Section Content Video */
-.bg_video_container {
+/* .bg_video_container {
     height:500px; 
     overflow:hidden; 
 }
@@ -184,3 +191,4 @@ img.infinity-skeleton-viz-img-inside-08 {
     color:#FFF; 
     text-shadow:#000 2px 2px; 
 }
+*/
