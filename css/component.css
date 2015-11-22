@@ -340,7 +340,7 @@ button.content-switch::before {
 	text-align: center;
 	color: #545b61;
 	font-size: 1.5em;
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
 }
 
 .js .pages .content {
@@ -352,7 +352,7 @@ button.content-switch::before {
 	overflow: hidden;
 	-webkit-transition: height 0s 0.6s;
 	transition: height 0s 0.6s;
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
 }
 
 .pages .content.show {
@@ -361,7 +361,7 @@ button.content-switch::before {
 	-webkit-transition: none;
 	transition: none;
 	padding-top: 6em;
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
 }
 
 .pages .content h2 {
@@ -373,12 +373,12 @@ button.content-switch::before {
 	font-family: 'Futura';
 	margin: 0 auto;
 	display: block;
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
 }
 
 .no-js .pages .content h2 {
 	padding-top: 1em;
-	padding-top: 1.85em;
+	/* padding-top: 1.85em; */
 }
 
 .pages .content h2 span {
