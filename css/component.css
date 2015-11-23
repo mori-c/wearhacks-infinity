@@ -349,7 +349,7 @@ button.content-switch::before {
 	left: 0;
 	height: 0;
 	width: 100%;
-	overflow: hidden;
+	overflow: overlay;
 	-webkit-transition: height 0s 0.6s;
 	transition: height 0s 0.6s;
 	/* padding-top: 1.85em; */
@@ -362,6 +362,7 @@ button.content-switch::before {
 	transition: none;
 	padding-top: 6em;
 	/* padding-top: 1.85em; */
+	overflow: overlay;
 }
 
 .pages .content h2 {
