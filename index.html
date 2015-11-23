@@ -291,46 +291,20 @@ The product has the potential to evolve into something that would resemble a per
 					    <script type="text/javascript" src="http://netdna.webdesignerdepot.com/uploads7/how-to-create-horizontal-scrolling-using-display-table-cell/full-screen-table-layout/js/jquery.js"></script>
 					    <script type="text/javascript" src="http://netdna.webdesignerdepot.com/uploads7/how-to-create-horizontal-scrolling-using-display-table-cell/full-screen-table-layout/js/smoothscroll.js"></script>
 
-					    
 					    <script type="text/javascript">
-
 					    // THIS IS THE IMPORTANT BIT
-
 					    // Firefox goes a little haywire if you use percentage heights on the table cells. Creating pixel widths that update themselves when you resize the browser window fixes this.
+$(window).load(function() {
+    var vWidth = $(window).width();
+    var vHeight = $(window).height();
+    $('.table > section').css('width', vWidth).css('height', vHeight);
+});
 
-					        $(window).load(function() {
-					            var vWidth = $(window).width();
-					            var vHeight = $(window).height();
-					            $('.table > section').css('width', vWidth).css('height', vHeight);
-					        });
-					        
-					        $(window).resize(function() {
-					            var vWidth = $(window).width();
-					            var vHeight = $(window).height();
-					            $('.table > section').css('width', vWidth).css('height', vHeight);
-					        });
-
-
-					        // THIS IS JUST THE NAVIGATION.
-					        
-					        $(document).ready(function() {
-					            
-					            var url = 1;
-
-					            $('a.forward').click(function () {
-					                url = url+1;
-					                $(this).attr({ href: '#section' + url });
-					                $(this).parent().attr({ class: 'section' + url });
-					            });
-					            
-					            $('a.backward').click(function () {
-					                url = url-1;
-					                $(this).attr({ href: '#section' + url });
-					                $(this).parent().attr({ class: 'section' + url });
-					            });
-					            $('a.forward, a.backward').smoothScroll();  
-					        });
-					        
+$(window).resize(function() {
+    var vWidth = $(window).width();
+    var vHeight = $(window).height();
+    $('.table > section').css('width', vWidth).css('height', vHeight);
+});
 					    </script>
 		
 		<!-- layout JS -->
