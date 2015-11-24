@@ -2,7 +2,9 @@
 https://github.com/karenpeng/motionEmotion/blob/master/public/index.html
 Experience 2
 */
+/*  */
 
+/*  */
 video{
         display: none;
         position: absolute;
@@ -16,12 +18,26 @@ video{
         transform:  scaleX(-1);
       }
       
-#myCanvas {
-width: 100%;
+      /* space for triangles in the background. works with /bgcanvas.js */
+      #bgCanvas{
+        width: 100%;
         height: 100%;
-}
-
-
+      }
+      
+      /*  */
+      #myCanvas{
+        position: absolute;
+        z-index: 0;
+        left: 50%;
+        top: 50%;
+        background: rgba(30,30,30,0.4);
+        /*
+        margin-left: -640px;
+        margin-top: -480px;
+        */
+      }
+      
+      /*  */
       #debugCanvas{
         position: absolute;
         z-index: -1;
@@ -31,6 +47,21 @@ width: 100%;
         margin-left: -40px;
       }
       
+      /*  */
+      #emoji{
+        position:absolute;
+        height: 60px;
+        width: 60px;
+        top: 50%;
+        left: 50%;
+        margin-top: 400px;
+        margin-left: 400px;
+        z-index: 2;
+        -webkit-animation: myfirst 5s linear 2s infinite alternate; /* Chrome, Safari, Opera */
+        animation: myfirst 5s linear 2s infinite alternate;
+      }
+      
+      /*  */
       /* Chrome, Safari, Opera */
       @-webkit-keyframes myfirst {
           0%   {left:0px; top:0px;}
@@ -39,6 +70,8 @@ width: 100%;
           75%  {left:0px; top:200px;}
           100% {left:0px; top:0px;}
       }
+      
+      /*  */
       /* Standard syntax */
       @keyframes myfirst {
           0%   {left:0px; top:0px;}
@@ -47,3 +80,22 @@ width: 100%;
           75%  {left:0px; top:200px;}
           100% {left:0px; top:0px;}
       }
+      /*
+      #github{
+        z-index: 2;
+      }*/
+      
+      /*  */
+      #reminder{
+        width:300px;
+        font-size: 22px;
+        color: #eee;
+        font-family: "Play";
+        text-align: center;
+        position: absolute;
+        bottom: 50%;
+        left: 50%;
+        margin-left: -150px;
+      }
+      
+      
