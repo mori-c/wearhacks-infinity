@@ -9,7 +9,7 @@
 - BG .jpg
 - H2 "making data enchanting"
 
-## 3 - E1 : Infinity Room
+## 3 - E1 : Infinity Room (Demo 1)
 
 #### E1S1 (Experience 1, Section 1)
 - BG .gif
@@ -38,13 +38,7 @@
 - H2 "quote" -Author 
 
 
-## 4 - Demo 2 (alt section)
-- BG .jpg
-- H2 "quote" -Author 
- 
-
-
-## 5 - E2 (Experience 2) : Demo 1
+## 5 - E2 (Experience 2) : Demo 2
 
 <hr>
 Demo Direction 1
