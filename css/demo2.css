@@ -1,0 +1,49 @@
+/*
+https://github.com/karenpeng/motionEmotion/blob/master/public/index.html
+Experience 2
+*/
+
+video{
+        display: none;
+        position: absolute;
+        -webkit-transform: translateX(480px);
+        -o-transform: translateX(480px);
+         transform: translateX(480px);
+        transform:  translateX(480px);
+        -webkit-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+         transform: scaleX(-1);
+        transform:  scaleX(-1);
+      }
+      
+#myCanvas {
+width: 100%;
+        height: 100%;
+}
+
+
+      #debugCanvas{
+        position: absolute;
+        z-index: -1;
+        left: 50%;
+        top: 50%;
+        margin-top: -30px;
+        margin-left: -40px;
+      }
+      
+      /* Chrome, Safari, Opera */
+      @-webkit-keyframes myfirst {
+          0%   {left:0px; top:0px;}
+          25%  {left:200px; top:0px;}
+          50%  {left:200px; top:200px;}
+          75%  {left:0px; top:200px;}
+          100% {left:0px; top:0px;}
+      }
+      /* Standard syntax */
+      @keyframes myfirst {
+          0%   {left:0px; top:0px;}
+          25%  {left:200px; top:0px;}
+          50%  {left:200px; top:200px;}
+          75%  {left:0px; top:200px;}
+          100% {left:0px; top:0px;}
+      }
