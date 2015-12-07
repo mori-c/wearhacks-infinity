@@ -11,8 +11,8 @@
     this.alpha = 0.8;
     this.lightUp = false;
   }
-  MyTriangle.prototype.update = function () {
-    this.alpha *= map(data.pointNumber, 0, 18, 0.9, 0.99); //0.99 data.triangleNumber;
+  MyTriangle.prototype.update = function (pointNumber) {
+    this.alpha *= map(pointNumber, 0, 18, 0.9, 0.99); //0.99 data.triangleNumber;
     // this.alpha = a
     this.lightnessOffset -= this.lightnessDecay;
     this.lightness = this.lightnessOffset + 50;
@@ -43,12 +43,19 @@
     this.vertices = [];
   }
 
+  DrawPoints.prototype.resize = function () {
+    this.width = this.can.width;
+    this.height = this.can.height;
+  };
+
   DrawPoints.prototype.updatePoints = function (points, width, height) {
     this.widthRatio = this.width / width;
     this.heightRatio = this.height / height;
     this.vertices = [];
     for (var i = 0; i < points.length; i++) {
-      this.vertices[i] = [points[i].x * this.widthRatio, points[i].y * this.heightRatio];
+      this.vertices[i] = [points[i].x * this.widthRatio, points[i].y * this
+        .heightRatio
+      ];
     }
   };
 
@@ -65,25 +72,39 @@
       var t = this.myTriangles[index];
       switch (emotion) {
       case 'angry':
-        t.hue = Math.floor(Math.random() * 60);
+        //t.hue = 360;
+        t.hue = Math.floor(Math.random() * 50);
         t.saturation = Math.floor(Math.random() * 50 + 50);
         break;
       case 'sad':
-        t.hue = Math.floor(Math.random() * 80 + 200);
+        t.hue = Math.floor(Math.random() * 60 + 200);
+        t.saturation = Math.floor(Math.random() * 50);
         break;
-      case 'surprise':
-        t.hue = Math.floor(Math.random() * 80 + 280);
+      case 'surprised':
+        var chance = Math.random();
+        if (chance >= 0.5) {
+          t.hue = Math.floor(Math.random() * 40 + 300);
+        } else {
+          t.hue = Math.floor(Math.random() * 40 + 150);
+        }
         t.saturation = Math.floor(Math.random() * 50 + 50);
+        break;
+      case 'happy':
+        t.hue = Math.floor(Math.random() * 360);
+        t.saturation = Math.floor(Math.random() * 50);
         break;
       default:
         t.hue = Math.floor(Math.random() * 360);
         t.saturation = Math.floor(Math.random() * 50);
+        break;
       }
       index++;
     }
   };
 
   DrawPoints.prototype.draw = function () {
+    this.ctx.clearRect(0, 0, this.width, this.width);
+    //this.ctx.globalCompositeOperation = "multipy";
     this.ctx.save();
     this.ctx.translate(this.width, 0);
     this.ctx.scale(-1, 1);
@@ -92,16 +113,17 @@
     }
     this.ctx.restore();
 
+    // if (bassActive) {
     if (this.myTriangles.length > 0) {
       for (var l = 0; l < this.myTriangles.length; l++) {
-        if (!this.myTriangles[l].update()) {
+        if (!this.myTriangles[l].update(this.vertices.length)) {
           this.myTriangles.splice(l, 1);
         } else {
           this.myTriangles[l].render(this.ctx);
         }
       }
     }
-
+    // }
   };
 
   exports.DrawPoints = DrawPoints;
