@@ -1,0 +1,210 @@
+// Imports -- INGNORE THIS BIT 
+@import "reset.css";
+@import url(http://fonts.googleapis.com/css?family=Open+Sans|Open+Sans+Condensed:300);
+
+
+
+
+// Global Layout Styles
+
+// The box-sizing property isn't strictly necessary, but it simplifies so many things.
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+
+// Don't touch this part. It helps.
+
+html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+
+// In this case, I didn't want a scrollbar, so I used overflow: hidden. The container element is more essential than ever, though. The body element will not do.
+
+div.horizontal {
+    display: block;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: static;
+
+    .table {
+        display: table;
+        table-layout: fixed;
+        width: 100%;
+        height: 100%;
+        
+        & > section {
+            width: 1600px;
+            // The width is based on my monitor. It's replaced by jQuery anyway. Percentage widths do not work.
+
+            height: 100%;
+            display: table-cell;
+            background: #e3e3e3;
+            vertical-align: middle;
+            text-align: center;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+
+// Global Typography Styles --  JUST AESTHETICS FROM HERE ON OUT
+body {
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Open Sans Condensed', Helvetica, Arial, sans-serif;   
+}
+
+h1 {
+    font-size: 54px;
+    line-height: 72px;
+    font-weight: normal;
+}
+
+h2 {
+    font-size: 36px;
+    line-height: 48px;
+}
+
+
+
+
+
+// Slide 2
+
+
+#section2 {
+    background: #FFF;
+}
+
+
+
+
+// Slide Three
+
+#section3 {
+    background: #d1d1d1;
+}
+
+
+div.wrap {
+    width: 500px;
+    height: 500px;
+    background: #FFF;
+    margin: 0 auto;
+    
+    
+    .row {
+        overflow: hidden;
+    }
+    
+    
+    header .column {
+        background: #f1f1f1;
+        height: 80px;
+        margin: 10px;
+        
+        line-height: 80px;
+    }
+    
+    section {
+        .column {
+            float: left;
+            background: #f1f1f1;
+            height: 390px;
+            padding-top: 20px;
+            
+            &:first-child {
+                width: 285px;
+                margin-left: 10px;
+            }
+            
+            &:last-child {
+                width: 185px;
+                margin-left: 10px;
+            }
+        }
+    }
+}
+
+
+
+
+
+
+// Slide Four
+
+div.overflow {
+    height: 100%;
+    overflow: auto;
+}
+
+.longbox {
+    height: 2000px; 
+    background: #FFF;
+    width: 500px;
+    margin: 0 auto;
+    padding: 120px 24px 0px;
+    text-align: left;
+}
+
+
+
+
+// Elements 
+
+
+img {
+	max-width: 100%;
+}
+
+
+nav {
+    position: fixed;
+    z-index: 9999;
+    left: 0px;
+    bottom: 0px;
+}
+
+a.forward, a.backward {
+    color: #FFF;
+    background: #414141;
+    display: block;
+    width: 100px;
+    float: left;
+    text-align: center;
+    text-decoration: none;
+    height: 60px;
+    line-height: 60px;
+}
+
+
+nav.section1 a.backward {
+    display: none;   
+}
+
+nav.section4 a.forward {
+     display: none;   
+}
+
+
+
+
+

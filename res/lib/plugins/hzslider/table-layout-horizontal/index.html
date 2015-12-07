@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Horizontal layouts with display: table-cell</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" />
+
+  <script type="text/javascript" src="js/html5shiv.js"></script>
+</head>
+<body>
+   
+   <header id="pageheader">
+       <h1>Horizontally-scrolling rows of content</h1>
+   </header>
+
+   <section>
+       <div class="horizontal">
+           <div class="table">
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+           </div>
+       </div>
+       
+   </section>
+   
+    <section>
+       
+       <div class="horizontal">
+           <div class="table">
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+           </div>
+       </div>
+       
+   </section>
+
+   <section>
+       
+       <div class="horizontal">
+           <div class="table">
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+               <article>
+                   <h3>Project Title</h3>
+               </article>
+           </div>
+       </div>
+       
+   </section>
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/enscroll-0.4.2.min.js"></script>
+    
+
+    
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.horizontal').enscroll({
+                horizontalTrackClass: 'horizontal-track2',
+                horizontalHandleClass: 'horizontal-handle2',
+                verticalScrolling: false,
+                horizontalScrolling: true,
+                addPaddingToPane: true
+            });
+            
+        });
+
+        
+    </script>
+</body>
+</html>

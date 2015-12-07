@@ -1,0 +1,21 @@
+nav  {
+    display: none;   
+}
+
+div.horizontal {
+    overflow-x: scroll;   
+}
+
+
+
+div.wrap section .column {
+    float: left;
+    height: 390px;
+    padding-top: 20px;
+    width: 235px !important;
+}
+
+
+    div.wrap section .column:first-child  {
+        margin-right: 10px;
+    }

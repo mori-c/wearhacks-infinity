@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<title>Full Screen Horizontal Layouts</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css" />
+	
+	<!--[if lt IE 9]>
+        <link rel="stylesheet" href="css/ie.css">
+    <![endif]-->
+
+    <script type="text/javascript" src="js/html5shiv.js"></script>
+</head>
+<body>
+   
+   <nav class="section1">
+       <a href="#section1" class="backward">Previous</a>
+       <a href="#section2" class="forward">Next</a>
+   </nav>
+
+
+   <!-- Once again, we need  -->
+
+    <div class="horizontal">
+       <div class="table">
+           
+           <section id="section1">
+               <h1>Full-Screen Horizontal Layouts</h1>
+
+               <p>Made with <code>display: table-cell;</code></p>
+
+               <p>By Ezequiel Bruni</p>
+           </section>
+           
+           
+           <section id="section2">
+               <h2>They're dead simple to make.</h2>
+
+               <p>Even if the full-screen version is somewhat dependent on javascript.</p>
+           </section>
+           
+           
+           <section id="section3">
+
+               <div class="wrap">
+                   <header class="row">
+                       <div class="column">
+                           Anything can be centered on the page.
+                       </div>
+                   </header>
+                   
+                   <section class="row">
+                       <div class="column">Including other layouts.</div>
+
+                       <div class="column">Nifty.</div>
+                   </section>
+               </div>
+           </section>
+
+
+           <!-- Just adding overflow: auto to an element with display: table-cell makes Firefox go a little crazy. The extra markup takes care of that. -->
+           
+           <section id="section4">
+
+               <div class="overflow">
+                   <div class="longbox">
+                       <p>And this is what happens when the content runs beyond the height of the screen.</p>
+                       <p>It takes a bit of extra markup to achieve this (thanks to FireFox), but it works well enough.</p>
+                   </div>
+               </div>
+           </section>
+           
+           
+           
+       </div>
+       
+</div>
+   
+   
+   
+   
+   
+
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/smoothscroll.js"></script>
+
+    
+    <script type="text/javascript">
+
+    // THIS IS THE IMPORTANT BIT
+
+    // Firefox goes a little haywire if you use percentage heights on the table cells. Creating pixel widths that update themselves when you resize the browser window fixes this.
+
+        $(window).load(function() {
+            var vWidth = $(window).width();
+            var vHeight = $(window).height();
+        
+            $('.table > section').css('width', vWidth).css('height', vHeight);
+        });
+        
+        $(window).resize(function() {
+            var vWidth = $(window).width();
+            var vHeight = $(window).height();
+        
+            $('.table > section').css('width', vWidth).css('height', vHeight);
+        });
+
+
+        // THIS IS JUST THE NAVIGATION.
+        
+        $(document).ready(function() {
+            
+            var url = 1;
+
+            $('a.forward').click(function () {
+                url = url+1;
+                $(this).attr({ href: '#section' + url });
+                
+                $(this).parent().attr({ class: 'section' + url });
+            });
+            
+            $('a.backward').click(function () {
+                url = url-1;
+                $(this).attr({ href: '#section' + url });
+                
+                $(this).parent().attr({ class: 'section' + url });
+            });
+            
+            
+            $('a.forward, a.backward').smoothScroll();
+            
+        });
+        
+    </script>
+    
+</body>
+</html>
