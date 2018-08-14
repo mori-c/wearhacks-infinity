@@ -12,7 +12,7 @@
 
 ## Site
 ### Experience Tone
-See https://github.com/connieleung/infinity/issues/2
+See https://github.com/mori-c/infinity/issues/2
 
 ### Demo 1
 
