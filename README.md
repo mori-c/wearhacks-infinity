@@ -2,6 +2,7 @@
 
 ![WearHacks Logo](https://avatars3.githubusercontent.com/u/8497023?s=200&v=4) [WearHacks](https://github.com/wearhacks) / First & Shadow Consulting Partnership
 
+<br>
 
 ## Concepts and Ideas
 1. Escape Room - https://en.wikipedia.org/wiki/Real-life_room_escape
